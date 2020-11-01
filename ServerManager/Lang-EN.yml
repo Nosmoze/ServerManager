@@ -1,0 +1,92 @@
+Messages:
+  ErrorGlobal: §4✘§c An error occurred during the execution of this command. Check your syntax !
+  ErrorConsole: You must be a player to execute this command !
+  ErrorPerm: §4✘§c You do not have permission to execute this command !
+  Instructions: §7Write the new messages, §8"/n"§7 to go to the line, §8"%Player%"§7 puts the name of the player §8(/cancel to cancel).
+  CancelInstructions: §7You just canceled the message change !
+  ErrorInstructions: §4✘§c No message change is in progress !
+  ErrorInstructionProgress: §4✘§c A change of message is already in progress!
+Manage:
+  Welcome:
+    Name: Welcome message
+    Value: §3✈ Welcome§b %Player% §3to this server !
+    Lore:
+      - Right click to see the current message
+      - Left click to change the current message
+  StopServer:
+    Name: Stop message
+    Value: §4✘§c The serveur is not longer available
+    Lore:
+      - Right click to see the current message
+      - Left click to change the current message
+  WhiteList:
+    Name: White-List message
+    Value: §4✘§c You do not have permission to enter the server
+    Lore:
+      - Right click to see the current message
+      - Left click to change the current message
+  Motd:
+    Name: MOTD
+    Value: §2✔§a Click here to join the server
+    Lore:
+      - Right click to see the current MOTD
+      - Left click to change the current MOTD
+  Quit:
+    Name: Quit message
+    Value: §4✘§c %Player%
+    Lore:
+      - Right click to see the current message
+      - Left click to change the current message
+  Join:
+    Name: Join message
+    Value: §2✔§a %Player%
+    Lore:
+      - Right click to see the current message
+      - Left click to change the current message
+  Hover:
+    Name: HoverPlayers message
+    Value: There are currently %slots% players on the server ! /nJoin us !
+    Lore:
+      - Right click to see to current message
+      - Left click to change the current message
+  Server:
+    Welcome:
+      Name: Welcome message
+      Status: true
+      Lore:
+        - Right click for disable or enable the welcome message
+        - Red - disable, Green - enable
+    Join:
+      Name: Join message
+      Status: true
+      Lore:
+        - Right click for disable or enable the join message
+        - Red - disable, Green - enable
+    Quit:
+      Name: Quit message
+      Status: true
+      Lore:
+        - Right click for disable or enable the quit message
+        - Red - disable, Green - enable
+    TNT:
+       Name: TNT protection
+       Status: true
+       Lore:
+         - Right click for disable or enable the TNT protection
+         - Red - disable, Green - enable
+    SQL:
+      Name: SQL connection
+      Lore:
+        - Right click for disable or enable the SQL connection
+        - Red - disable, Green - enable
+    Pack:
+      Name: Resource Pack
+      Status: false
+      Value: ResourcePack link
+      Lore:
+        - Right click for disable or enable the automatic resource pack
+        - Red - disable, Green - enable
+    Language:
+      Name: Change Language
+      Lore:
+        - Right click for change Language (EN/FR)

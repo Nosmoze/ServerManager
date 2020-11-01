@@ -1,0 +1,92 @@
+Messages:
+  ErrorGlobal: §4✘§c Une erreur c'est produite lors de l'exécution de cette commande. Verifier votre syntax !
+  ErrorConsole: Vous devez être joueur pour exécuter cette commande !
+  ErrorPerm: §4✘§c Vous n'avez pas la permission d'exécuter cette commande !
+  Instructions: §7Ecrivez le nouveau message, §8"/n"§7 pour passer à la ligne, §8"%Player%"§7 met le nom du joueur §8(/cancel pour annuler)§7.
+  CancelInstructions: §7Vous venez d'annuler le changement de message !
+  ErrorInstructions: §4✘§c Aucun changement de message n'est en cours !
+  ErrorInstructionProgress: §4✘§c Un changement de message est déjà en cours !
+Manage:
+  Welcome:
+    Name: Message de bienvenue
+    Value: §3✈ Bienvenue§b %Player% §3sur le serveur !
+    Lore:
+      - Clique droit pour voir le message actuelle
+      - Clique gauche pour changer le message actuelle
+  StopServer:
+    Name: Message d'arrêt du serveur
+    Value: §4✘§c Le serveur n'est plus disponible
+    Lore:
+      - Clique droit pour voir le message actuelle
+      - Clique gauche pour changer le message actuelle
+  WhiteList:
+    Name: Message de white list
+    Value: §4✘§c Vous n'avez pas la permission d'entrer sur ce serveur
+    Lore:
+      - Clique droit pour voir le message actuelle
+      - Clique gauche pour changer le message actuelle
+  Motd:
+    Name: MOTD
+    Value: §2✔§a Clique ici pour rejoindre le serveur
+    Lore:
+      - Clique droit pour voir le MOTD actuelle
+      - Clique gauche pour changer le MOTD actuelle
+  Quit:
+    Name: Message de déconnexion
+    Value: §4✘§c %Player%
+    Lore:
+      - Clique droit pour voir le message actuelle
+      - Clique gauche pour changer le message actuelle
+  Join:
+    Name: Messge de connexion
+    Value: §2✔§a %Player%
+    Lore:
+      - Clique droit pour voir le message actuelle
+      - Clique gauche pour changer le message actuelle
+  Hover:
+    Name: Survole slot message
+    Value: Il y a actuellement %slot% joueurs sur le serveur ! /nRejoins nous !
+    Lore:
+      - Clique droit pour voir le message actuelle
+      - Clique gauche pour changer le message actuelle
+  Server:
+    Welcome:
+      Name: Message de bienvenue
+      Status: true
+      Lore:
+        - Clique droit pour désactiver ou activer
+        - Rouge - désactivé, Vert - activé
+    Join:
+      Name: Message de connexion
+      Status: true
+      Lore:
+        - Clique droit pour désactiver ou activer
+        - Rouge - désactivé, Vert - activé
+    Quit:
+      Name: Message de déconnexion
+      Status: true
+      Lore:
+        - Clique droit pour désactiver ou activer
+        - Rouge - désactivé, Vert - activé
+    TNT:
+      Name: TNT protection
+      Status: true
+      Lore:
+        - Clique droit pour désactiver ou activer
+        - Rouge - désactivé, Vert - activé
+    SQL:
+      Name: SQL connexion
+      Lore:
+        - Clique droit pour désactiver ou activer
+        - Rouge - désactivé, Vert - activé
+    Pack:
+      Name: Ressource Pack
+      Status: false
+      Value: RessourcePack Lien
+      Lore:
+        - Clique droit pour désactiver ou activer
+        - Rouge - désactivé, Vert - activé
+    Language:
+      Name: Changer de langue
+      Lore:
+        - Clique droit pour changer de langue (FR/EN)

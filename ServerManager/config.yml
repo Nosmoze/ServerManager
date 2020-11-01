@@ -1,0 +1,17 @@
+# SqlConnection:
+# You have the choice to connect the plugin to a database.
+# Vous avez le choix de connecter le plugin à la base de donnees.
+# Host, DataBase, User, Password:
+# Enter the information necessary to connect to the database here.
+# Saisissez ici les informations necessaires à la connexion à la base de donnees.
+# Languages:
+# The plugin is available in two languages, French and English (Fr or En).
+# Le plugin est disponible en deux langues, francais et anglais (Fr ou En).
+SqlConnection: false
+Host: localhost
+Database: servermanager
+User: root
+Password:
+Language: Fr
+ColorPrefix_Gray: §7
+ColorPrefix_DarkGray: §8
