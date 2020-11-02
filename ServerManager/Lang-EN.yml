@@ -45,7 +45,7 @@ Manage:
       - Left click to change the current message
   Hover:
     Name: HoverPlayers message
-    Value: There are currently %slots% players on the server ! /nJoin us !
+    Value: There are currently %slot% players on the server ! /nJoin us !
     Lore:
       - Right click to see to current message
       - Left click to change the current message
